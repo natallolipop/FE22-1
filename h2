@@ -1,0 +1,63 @@
+
+1 Площадь
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script type = "text/javascript">
+const radius = prompt (" Введите радиус круга")
+ const A = Math.PI * radius * radius;
+ alert ("Площадь круга равна" + A) 
+</script> 
+<body/>
+<html/>
+
+2. Сколько прошло 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script type = "text/javascript">
+	const data = prompt ("Введите год")
+	const new_data = new Date().getFullYear() - data;
+	alert ("Прошло " + new_data)  
+   </script> 
+   <body/>
+   <html/>
+
+  
+  
+  3.Пенсия
+   
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script type = "text/javascript">
+	const age = prompt ("Введите ваш возраст")
+	const old = 65 - age;//сколько лет осталось до пенсии
+    const new_data = new Date().getFullYear() + old; //в каком году выдет на пенсию
+	alert (" Осталось до пенсии " + old + " Выйдете на пенсию в  " + new_data);
+   </script> 
+   <body/>
+   <html/>
+
+   
+
